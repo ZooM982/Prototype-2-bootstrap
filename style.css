@@ -56,6 +56,22 @@ body{
 	height: 577px;
 
 }
+@media (max-width: 767px){
+	body{
+		margin-right: 0px;
+	}
+	.work{
+	margin-left: 0px;
+	}
+	#fresh .row{
+	margin-top: 150px;
+	width: 250px;
+	margin-left: 100px;
+	}
+	#fresh .card{
+	margin-left: -100px;
+	}
+}
 /*-- fresh section exit--*/
 
 /*--promise section--*/
