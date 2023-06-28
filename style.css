@@ -53,7 +53,10 @@ body{
 	background-image: url(images/fresh.png);
 	background-repeat: no-repeat;
 	height: 577px;
-
+}
+#fresh .btn{
+	background: #490909;
+	color: white;
 }
 @media (max-width: 767px){
 	#fresh{
@@ -74,7 +77,7 @@ body{
 		font-size: 20px;
 	}
 	#fresh .row{
-	margin-top: 100px;
+	margin-top: 150px;
 	width: 250px;
 	height: 300px;
 	margin-left: 30px;
