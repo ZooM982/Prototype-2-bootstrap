@@ -5,6 +5,7 @@ body{
 	padding: 0;
 	margin: 0;
 }
+
 /*entete section*/
 #entete h3{
 	font-size: 20px;
@@ -39,6 +40,7 @@ body{
 	border-radius: 5px;
 	background: #F6E1C5;
 	margin-left: -200px;
+	height: 280px;
 }
 #fresh .card{
 	border: none;
@@ -71,8 +73,9 @@ body{
 	}
 	#fresh .work{
 	margin-left: 20px;
-	height: 350px;
+	height: 320px;
 	margin-top: 100px;
+	width: 100%;
 	}
 	#fresh .work p h3{
 		font-size: 20px;
@@ -242,6 +245,9 @@ body{
 #store1{
 	background: rgba(165, 52, 43, 0.69);
 }
+.store2{
+	font-family: MingLiU_HKSCS-ExtB;
+}
 #store1 .card{
 	border: 1px solid #F6E1C5;
 	background: initial;
@@ -258,6 +264,10 @@ body{
 #store{
 	height: 700px;
 }
+.store1 h1{
+	color: #000;
+	font-family: Montserrat;
+}
 #store .work{
 	border-radius: 5px;
 	background: #F6E1C5;
@@ -266,7 +276,11 @@ body{
 }
 @media (max-width: 767px){
 	#store{
-		margin-bottom: 300px;
+		margin-bottom: 400px;
+	}
+	.store2 p{
+		text-align: center;
+		margin-left: 15px;
 	}
 }
 
