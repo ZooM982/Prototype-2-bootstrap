@@ -116,6 +116,117 @@ body{
 	margin-top: 300px;
 }
 /*-- about section exit--*/
+/*--product section--*/
+#product{
+	margin-top: 50px;
+}
+#product .row{
+	background: initial;
+}
+#product .work1{
+	border-radius: 5px;
+	background: #F6E1C5;
+	z-index: 1;
+	margin-top: -40px;
+	margin-left: 500px;
+}
+#product .work2{
+	border-radius: 5px;
+	background: #F6E1C5;
+	z-index: 1;
+	margin-top: 450px;
+	margin-left: -180px;
+}
+#product .card2 .work2{
+	border-radius: 5px;
+	background: #F6E1C5;
+	z-index: 1;
+	margin-top: 500px;
+	margin-left: 550px;
+}
+#product .card2 .work1{
+	border-radius: 5px;
+	background: #F6E1C5;
+	z-index: 1;
+	margin-top: -50px;
+	margin-left: -290px;
+}
+#product .card{
+	background-image: url(images/p1.png);
+	background-repeat: no-repeat;
+	border: none;
+	height: 600px;
+}
+#product .card2{
+	background-image: url(images/p2.png);
+	background-repeat: no-repeat;
+	border: none;
+	height: 600px;
+}
+#product .card3{
+	background-image: url(images/p3.png);
+	background-repeat: no-repeat;
+	border: none;
+	height: 600px;
+}
+@media (max-width: 767px){
+	#product .work1{
+	border-radius: 5px;
+	background: #F6E1C5;
+	z-index: 1;
+	margin-top: -70px;
+	margin-left: 50px;
+	}
+#product .card .work2{
+	border-radius: 5px;
+	background: #F6E1C5;
+	z-index: 1;
+	margin-top: 180px;
+	margin-left: 0px;
+	width: 100%;
+	}
+	#product .work2{
+	border-radius: 5px;
+	background: #F6E1C5;
+	z-index: 1;
+	margin-top: 200px;
+	margin-left: 0px;
+	width: 100%;
+	}
+	#product .card2 .work2{
+	border-radius: 5px;
+	background: #F6E1C5;
+	z-index: 1;
+	margin-top: 180px;
+	margin-left: 0px;
+	width: 100%;
+	}
+	#product .card2 .work1{
+	border-radius: 5px;
+	background: #F6E1C5;
+	z-index: 1;
+	margin-top: -70px;
+	margin-left: 50px;
+	}
+	#product .card{
+	background-image: url(images/p1-2.png);
+	background-repeat: no-repeat;
+	height: 350px;
+	margin-bottom: 100px;
+	}
+	#product .card2{
+	background-image: url(images/p2-2.png);
+	background-repeat: no-repeat;
+	border: none;
+	}
+	#product .card3{
+	background-image: url(images/p3-3.png);
+	background-repeat: no-repeat;
+	margin-top: -150px;
+	margin-bottom: -200px;
+	}
+}
+/*--product section exit--*/
 .footer{
  background: #311919;
  color: white;
