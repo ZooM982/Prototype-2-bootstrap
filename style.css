@@ -22,12 +22,11 @@ body{
 
 }
 .navbar{
-	background: #490909;;
+	background: #490909;
 }
 .nav-item a{
 	color: #FFF;
 	font-size: 18px;
-	font-family: Montserrat;
 	font-weight: 700;
 }
 /*entete section exit*/
@@ -36,7 +35,7 @@ body{
 #fresh{
 	height: 700px;
 }
-.work{
+#fresh .work{
 	border-radius: 5px;
 	background: #F6E1C5;
 	margin-left: -200px;
@@ -58,18 +57,26 @@ body{
 }
 @media (max-width: 767px){
 	body{
-		margin-right: 0px;
+		width: 500px;
 	}
-	.work{
-	margin-left: 0px;
+	#fresh{
+		height: 500px;
+	}
+	.fresh{
+	background-image: url(images/fresh2.png);
+	}
+	#fresh .work{
+	margin-left: -100px;
 	}
 	#fresh .row{
-	margin-top: 150px;
+	margin-top: 100px;
 	width: 250px;
-	margin-left: 100px;
+	height: 200px;
+	margin-left: 30px;
 	}
 	#fresh .card{
-	margin-left: -100px;
+	width: 500px;
+	margin-left: 0px;
 	}
 }
 /*-- fresh section exit--*/
@@ -88,6 +95,22 @@ body{
 	background: #F6E1C5;
 }
 /*-- promise section exit--*/
+/*-- about section--*/
+#about{
+	height: 700px;
+}
+#about .card{
+	background-image: url(images/about.png);
+	background-repeat: no-repeat;
+	border: none;
+	height: 418px;
+}
+#about .work{
+	border-radius: 5px;
+	background: #F6E1C5;
+	margin-top: 300px;
+}
+/*-- about section exit--*/
 .footer{
  background: #311919;
  color: white;
