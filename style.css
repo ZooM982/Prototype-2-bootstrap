@@ -61,6 +61,7 @@ body{
 @media (max-width: 767px){
 	#fresh{
 		height: 600px;
+		margin-bottom: 100px;
 	}
 	.fresh{
 	background-image: url(images/fresh2.png);
