@@ -119,7 +119,13 @@ body{
 	background: #F6E1C5;
 	margin-top: 300px;
 }
+@media (max-width: 767px){
+	#about{
+		margin-bottom: 100px;
+	}
+}
 /*-- about section exit--*/
+
 /*--product section--*/
 #product{
 	margin-top: 50px;
@@ -179,7 +185,8 @@ body{
 	background: #F6E1C5;
 	z-index: 1;
 	margin-top: -70px;
-	margin-left: 50px;
+	margin-left: 0px;
+	width: 100%;
 	}
 #product .card .work2{
 	border-radius: 5px;
@@ -210,7 +217,8 @@ body{
 	background: #F6E1C5;
 	z-index: 1;
 	margin-top: -70px;
-	margin-left: 50px;
+	margin-left: 0px;
+	width: 100%;
 	}
 	#product .card{
 	background-image: url(images/p1-2.png);
