@@ -238,6 +238,39 @@ body{
 	}
 }
 /*--product section exit--*/
+/*--store section--*/
+#store1{
+	background: rgba(165, 52, 43, 0.69);
+}
+#store1 .card{
+	border: 1px solid #F6E1C5;
+	background: initial;
+}
+#store1 .store1{
+	background-color: #F6E1C5;
+}
+#store .card{
+	background-image: url(images/about.png);
+	background-repeat: no-repeat;
+	border: none;
+	height: 400px;
+}
+#store{
+	height: 700px;
+}
+#store .work{
+	border-radius: 5px;
+	background: #F6E1C5;
+	margin-top: 300px;
+	width: 100%;
+}
+@media (max-width: 767px){
+	#store{
+		margin-bottom: 300px;
+	}
+}
+
+/*--store section exit*/
 .footer{
  background: #311919;
  color: white;
